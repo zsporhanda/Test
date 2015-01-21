@@ -1,2 +1,6 @@
-Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
+Disable-UAC
+Disable-MicrosoftUpdate
 Enable-RemoteDesktop
+Set-TaskbarOptions -Size Small -Lock -Dock Top
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
+
